@@ -1,0 +1,49 @@
+# Aula02
+
+Atividade: Exercicío 01:
+int main()
+{
+    float nota1, nota2, media;
+    printf("Qual a sua primera nota: ");
+    printf("%f", &nota1);
+    printf("Digite a sua segunda nota: ");
+    scanf("%f", &nota2);
+    
+    media = (nota1 + nota2)/2;
+    
+    printf("A sua media de nota é: %.lf", media);
+
+    return 0;
+}
+
+Exercicio 02:
+
+#include <stdio.h>
+
+int main()
+{
+    float km, combustivel, media;
+    printf("Quantos kilometros rodados? ");
+    scanf("%f", &km);
+    printf("Quantos litros de combustivel gastos? ");
+    scanf("%f", &combustivel);
+    
+    media = km/combustivel;
+    
+    printf("A sua media de nota é: %.lf", media);
+
+    return 0;
+}
+
+Exercicio 4:
+#include <stdio.h>
+
+int main(void)
+{
+    float c, f;
+    printf("f = ");
+    scanf("%f", &f);
+    c = (f - 32) * 5/9;
+    printf("c = %f", c);
+    return 0;
+}
